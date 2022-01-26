@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+/****Config. Geral****/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--ff);
+}
+
+body {
+    background-color: var(--color1);
+}
+
+/****Variáveis****/
+:root {
+    --ff:'Roboto', sans-serif;
+    --color1: #f5f5f5;
+    --color2: #D9985F;
+    --color3: #A66641;
+    --color4: #73412F;
+    --color5: #40271E;
+    --color6: #592E2A;
+}
+
+/****Menu****/
+header {
+    background-color: var(--color2);
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.377);
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    text-align: start;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10px;
+}
+
+li {
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: var(--color1);
+}
+
+.list-rede {
+    padding: 10px;
+}
+.nav-rede {
+    padding-left: 10px;
+}
+
+/****Conteúdo****/
+img {
+    width: 100%;
+}
+
+.apresentacao {
+    margin: auto;
+    max-width: 900px;
+    padding: 60px 20px;
+    
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+p {
+    padding-top: 50px;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.sobre {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.drmaycon {
+    max-width: 300px;
+}
+
+.sobre-bloco {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.foto {
+    padding: 50px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.foto-bloco {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    max-width: 500px;
+    padding: 70px 20px;
+    text-align: justify;
+}
+.area {
+    padding-top: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.area-link {
+    align-items: center;
+    color: white;
+}
+
+.area-atuacao {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 0px 6px;
+    width: 350px;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+input {
+    font-family: var(--ff);
+    font-size: 1.4rem;
+    outline: none;
+    margin-top: 3px;
+}
+
+button {
+    font-family: var(--ff);
+    font-size: 1.5rem;
+    padding: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.credito {
+    color: white;
+    text-align: center;
+    padding: 0px;
+    font-size: 1rem;
+    font-weight: 300;
+}
